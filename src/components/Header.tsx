@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <section className="bg-[#131110] text-white">
+    <section className="text-white">
       <div className="flex gap-y-[32px] flex-wrap items-center justify-between p-[24px] py-[16px] text-[rgba(255,255,255,0.78)] innerWidth">
         <Image
           src="/images/logo.png"
