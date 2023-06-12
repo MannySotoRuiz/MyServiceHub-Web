@@ -2,10 +2,12 @@ import Image from "next/image";
 import { HiLocationMarker } from "react-icons/hi";
 import HeroStats from "@/components/HeroStats";
 import Header from "@/components/Header";
+import FeaturedRow from "@/components/FeaturedRow";
 
 export default function Home() {
   return (
     <main>
+      {/* hero section */}
       <div className="relative overflow-x-clip">
         <div className="bg-[#131110] relative">
           <div className="absolute w-[20rem] h-[20rem] bg-[rgba(255,255,255,0.522)] blur-[100px] rounded-[100px]"></div>
@@ -18,9 +20,10 @@ export default function Home() {
                 <div className="relative z-10">
                   <div className="orangeCircle" />
                   <h1 className="font-semibold text-6xl">
-                    Discover <br />
-                    Most Suitable <br />
-                    Property
+                    Find The Best
+                    <br />
+                    Pros In Your <br />
+                    Area
                   </h1>
                 </div>
 
@@ -82,6 +85,12 @@ export default function Home() {
           </section>
         </div>
       </div>
+      {/* end of hero section */}
+
+      {/* featured rows section */}
+      <section className="r-wrapper">
+        <FeaturedRow />
+      </section>
     </main>
   );
 }

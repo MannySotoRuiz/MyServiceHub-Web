@@ -106,10 +106,45 @@ a {
   background: var(--orange-gradient);
   border-radius: 100%;
   position: absolute;
-  right: 28%;
-  top: -10%;
+  right: -8%;
+  top: -15%;
   z-index: -1;
 }
+
+.swiper-horizontal {
+  overflow: visible;
+}
+
+.r-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.r-card {
+  transition: all 300ms ease-in;
+}
+.r-card:hover {
+  scale: 1.025;
+  cursor: pointer;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(136, 160, 255, 0.46) 217.91%
+  );
+  box-shadow: 0px 72px 49px -51px rgba(136, 160, 255, 0.21);
+}
+
+/* .r-buttons {
+  position: absolute;
+  gap: 1rem;
+  top: -2rem;
+  right: 0;
+  z-index: 9999999;
+}
+
+.swiper {
+
+} */
 
 /* media queries */
 @media (min-width: 1536px) {
