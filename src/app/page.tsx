@@ -3,6 +3,8 @@ import { HiLocationMarker } from "react-icons/hi";
 import HeroStats from "@/components/HeroStats";
 import Header from "@/components/Header";
 import FeaturedRow from "@/components/FeaturedRow";
+import Value from "@/components/Value";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -91,6 +93,8 @@ export default function Home() {
       <section className="r-wrapper">
         <FeaturedRow />
       </section>
+      <Value />
+      <Contact />
     </main>
   );
 }

@@ -3,7 +3,7 @@
 import { FC } from "react";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
-import { swiperData, sliderSettings } from "@/lib/utils";
+import { swiperData, sliderSettings } from "@/lib/utils/swiperData";
 import Image from "next/image";
 
 const SliderButtons = () => {

@@ -134,6 +134,23 @@ a {
   box-shadow: 0px 72px 49px -51px rgba(136, 160, 255, 0.21);
 }
 
+.accordion {
+  margin-top: 2rem;
+}
+
+.expanded {
+  box-shadow: var(--shadow);
+  border-radius: 6px;
+}
+
+/* .accordionItem {
+  background: white;
+  border: 0.8px solid rgba(128, 128, 128, 0.143);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+} */
+
 /* .r-buttons {
   position: absolute;
   gap: 1rem;
