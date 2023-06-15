@@ -161,13 +161,12 @@ a {
   scale: 0.8;
 }
 
-/* .accordionItem {
-  background: white;
-  border: 0.8px solid rgba(128, 128, 128, 0.143);
-  border-radius: 8px;
-  overflow: hidden;
-  margin-bottom: 20px;
-} */
+.inner-container .button {
+  background: #5a73d7;
+  border: 2px solid white;
+  box-shadow: var(--shadow);
+  border-radius: 10px;
+}
 
 /* .r-buttons {
   position: absolute;
@@ -175,10 +174,6 @@ a {
   top: -2rem;
   right: 0;
   z-index: 9999999;
-}
-
-.swiper {
-
 } */
 
 /* media queries */

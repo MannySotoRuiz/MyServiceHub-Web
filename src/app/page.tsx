@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import FeaturedRow from "@/components/FeaturedRow";
 import Value from "@/components/Value";
 import Contact from "@/components/Contact";
+import GetStarted from "@/components/GetStarted";
 
 export default function Home() {
   return (
@@ -95,6 +96,7 @@ export default function Home() {
       </section>
       <Value />
       <Contact />
+      <GetStarted />
     </main>
   );
 }
