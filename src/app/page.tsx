@@ -15,7 +15,7 @@ export default function Home() {
           <div className="absolute w-[20rem] h-[20rem] bg-[rgba(255,255,255,0.522)] blur-[100px] rounded-[100px]"></div>
           <Header />
           <section className="text-white relative pb-[32px]">
-            <div className="p-[24px] innerWidth flex gap-y-[32px] justify-between flex-wrap items-end ">
+            <div className="p-[24px] innerWidth flex gap-y-[32px] justify-between flex-wrap items-end">
               {/* left side */}
               <div className="flexColStart gap-[48px]">
                 {/* hero title */}
